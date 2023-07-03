@@ -1,8 +1,7 @@
 # Introduction to Fluentd on Kubernetes
 ## Prerequisites 
-You will need a basic understanding of Fluentd before you attempt to run it on Kubernetes.<br/> 
+You will need a basic understanding of Fluentd before you attempt to run it on Kubernetes and ofcource a Kubernetes Cluster ready.<br/> 
 Fluentd and Kubernetes have a bunch of moving parts.<br/> 
-A Kubernetes Cluster .<br/>
 The most important components to understand is the fluentd `tail` plugin. <br/>
 This plugin is used to read logs from containers and pods on the file system and collect them.
 
